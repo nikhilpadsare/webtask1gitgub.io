@@ -1,0 +1,67 @@
+/* Basic styling for the header and footer */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #323030;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c2ba67;
+    text-align: left;
+}
+
+.nav-items a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0a0404;
+    transition: color 0.4s;
+}
+/* Change color on hover */
+.nav-items a:hover {
+    color: #ff9900;
+}
+
+/* Change color when scrolled */
+body.scrolled .header {
+    background-color:#fdfefe;
+}
+
+h2{
+    text-align: center;
+    color: rgb(176, 46, 46);
+    background-color: rgb(245, 232, 220);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    background-color: #698f91;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    border-color: #0a0404;
+    border-radius: 10px 10px 10px 10px;
+
+} h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: #180843;
+}
+
